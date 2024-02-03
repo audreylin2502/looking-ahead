@@ -10,4 +10,4 @@ RUN R -e "install.packages('shiny')"
 RUN rm -r /srv/shiny-server/*
 RUN git clone https://github.com/audreylin2502/looking-ahead.git
 RUN cp -r looking-ahead/* /srv/shiny-server/
-RUN rmm -r looking-ahead
+RUN rm -r looking-ahead
