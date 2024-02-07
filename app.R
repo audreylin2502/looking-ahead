@@ -1,5 +1,5 @@
 # Install and load necessary libraries
-install.packages(c("shiny", "shinydashboard", "DT"))
+#install.packages(c("shiny", "shinydashboard", "DT"))
 library(shinydashboard)
 library(shiny)
 library(DT)
